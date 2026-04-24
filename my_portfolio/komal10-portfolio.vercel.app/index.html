@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://cdn.counter.dev/script.js" data-id="ad8997b1-fe6f-4220-9e33-1883ee07d11f" data-utcoffset="6"></script>
+</head>
+
+
+<body>
+<!-- <div class="bg-img"> </div>
+    <div class="content">  </div>   -->
+    <nav id="desktop-nav">
+        <div class="logo">Komal_A</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Komal Ambure</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+  <hr>
+
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="/komal10-portfolio.vercel.app\assets\my_img1.jpeg" style="border-radius: 50%;" alt="Komal Ambure profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Komal Ambure</h1>
+            <p class="section__text__p2">Web Developer | Python </p>
+            <div class="btn-container">
+                <!-- <button class="btn btn-color-2" onclick="window.open('ravib45-portfolio.vercel.app\assets\cv.pdf')">Download CV</button> -->
+
+                <a href="/komal10-portfolio.vercel.app\assets\cv-k (1).pdf">
+                    <button class="btn btn-color-2">Download CV</button>
+                </a>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/komal-ambure-7625b3292//'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Ambure1024'" />
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="/komal10-portfolio.vercel.app\assets\profile_img_2.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>Continuously evolving through active learning <br />Web Development.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Persuing Bachelors of Engineering(BE) in Computer Science. <br> Currently in Final year, <br>Third year SGPA:8.71. </p>
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p><strong>🚀 Komal A</strong>, a passionate <span style="color: #007bff; font-weight: bold;">Web
+              Developer</span> skilled in
+                        <strong>HTML, CSS, JavaScript, React JS, Node JS, and MySQL</strong>. Currently enhancing Logic Building and Problem solving with
+                        <span style="color: #28a745; font-weight: bold;">Python and Data Analytics integration with AI</span>.
+                    </p>
+
+                    <p>✅ Experienced with <strong>Tailwind CSS, React JS, Vercel</strong>, and modern front-end technologies to build responsive & user-friendly interfaces.
+                    </p>
+
+                              <p>📌 Currently working on a <strong>'House Price Pridiction System'</strong> project using <span
+              style="color: #dc3545;">Python, (Pandas,Numpy,Matplotlib,PowerBI for Visualization and data manipulation)</span>,
+            learning by building real-world applications.</p>
+
+                    <p>🎯 <strong>Goal:</strong> <span style="background-color: yellow; padding: 2px;">high-paying tech job continuously improving Data Analytics skills or Full-Stack Web Development skill.</span></p>
+
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section> <br>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <!-- First Box -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <!--                 <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <!--                 <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <!--                 <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React JS</h3>
+                                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MYSQL</h3>
+                                <!--                 <p>Intermediate</p> -->
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Second Box -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Language </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Full-Stack</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <div id="projects">
+        <p class="section__text__p1">Browse My Recent Projects</p>
+        <h1 class="title">
+            <marquee behavior="scroll" direction="left" scrollamount="12">
+                New Projects are coming soon
+            </marquee>
+        </h1>
+
+        <div class="container-wrapper">
+
+            <div class="container" style="--progress: 100%;">
+                <h2>MindMap_NoteTaking </h2>
+                <img src="/komal10-portfolio.vercel.app\assets\noteTaking_img.jpg" alt="Project" class="project-image">
+                <a href="https://mindpadnotetaking.netlify.app/" class="project-link">View Project</a>
+                <label for="progress1">100% Completed</label>
+                <input type="range" id="progress1" min="0" max="100" value="100" disabled>
+            </div>
+
+
+            <div class="container" style="--progress: 100%;">
+                <h2>News App</h2>
+                <img src="/komal10-portfolio.vercel.app\assets\NewsApp_img.avif" alt="Project" class="project-image">
+                <a href="http://localhost:3000/business" class="project-link">View Project</a>
+                <label for="progress1">100% Completed</label>
+                <input type="range" id="progress1" min="0" max="100" value="100" disabled>
+            </div>
+
+
+
+
+
+
+
+            <div class="container" style="--progress: 100%;">
+                <h2>Email Validation </h2>
+                <img src="/komal10-portfolio.vercel.app\assets\Email-Validation-img.jpeg" alt="Project" class="project-image">
+                <a href="https://emailvalidat.netlify.app/" class="project-link">View Project</a>
+                <label for="progress1">100% Completed</label>
+                <input type="range" id="progress1" min="0" max="100" value="100" disabled>
+            </div>
+
+
+
+
+
+
+            <!-- <div class="container" style="--progress: 100%;">
+                <h2>Bike Game </h2>
+                <img src="assets/BikeWall.png" alt="Project" class="project-image">
+                <a href="https://bike-game-ravib45.vercel.app/" class="project-link">View Project</a>
+                <label for="progress1">100% Completed</label>
+                <input type="range" id="progress1" min="0" max="100" value="100" disabled>
+            </div> -->
+
+
+            <div class="container" style="--progress: 100%;">
+                <h2>Spotify clone</h2>
+                <img src="assets/spotify.jpeg" alt="Project" class="project-image">
+                <a href="https://spotify-clone-ravib45.vercel.app/" class="project-link">View Project</a>
+                <label for="progress1">100% Completed</label>
+                <input type="range" id="progress1" min="0" max="100" value="100" disabled>
+            </div>
+
+            <div class="container" style="--progress: 60%;">
+                <h2>Leave Letter Collector</h2>
+                <img src="assets/mail.png" alt="Project" class="project-image">
+                <a href="#" class="project-link">View Project</a>
+                <label for="progress1">60% Completed</label>
+                <input type="range" id="progress1" min="0" max="60" value="60">
+            </div>
+        </div>
+
+
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                    <p><a href="mailto:komalambure40@gmail.com">komalambure40@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <p><a href="https://www.linkedin.com/in/komal-ambure-7625b3292//">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="contact-section" class="contact-section">
+
+            <!-- <p class="section__text__p1">Feedback</p> -->
+            <h1 class="title" style="margin-bottom: 10px;">Hire Me</h1>
+            <div class="form-wrapper">
+                <form id="contactForm" class="contact-form" action="https://formspree.io/f/mnndwvrb" method="POST" novalidate>
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" class="form-input" required />
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." class="form-textarea" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div id="popupMessage" class="popup-message"></div>
+        </section>
+
+
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2025 Komal Ambure. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+        <script>
+            const form = document.getElementById('contactForm');
+            const popup = document.getElementById('popupMessage');
+
+
+
+        //     function openNewWindow() {
+        //     window.open("file:///C:/Users/ambur/Downloads/ravib45_portfolio.vercel.app%20(main)/ravib45-portfolio.vercel.app/assets/cv.pdf");
+        // }
+
+
+
+            function showPopup(message, isError = false) {
+                popup.textContent = message;
+                popup.className = 'popup-message show';
+                if (isError) popup.classList.add('error');
+
+                setTimeout(() => {
+                    popup.className = 'popup-message';
+                }, 3500);
+            }
+
+            function isValidEmail(email) {
+                const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return regex.test(email);
+            }
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const email = form.email.value.trim();
+                const message = form.message.value.trim();
+
+                if (!isValidEmail(email)) {
+                    showPopup('Please enter a valid email address.', true);
+                    return;
+                }
+
+                if (message.length === 0) {
+                    showPopup('Please enter your message.', true);
+                    return;
+                }
+
+                fetch(form.action, {
+                    method: form.method,
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                    body: new FormData(form)
+                }).then(response => {
+                    if (response.ok) {
+                        showPopup('Message sent successfully!');
+                        form.reset();
+                    } else {
+                        response.json().then(data => {
+                            if (data.errors) {
+                                showPopup(data.errors.map(error => error.message).join(", "), true);
+                            } else {
+                                showPopup('Oops! There was a problem sending your message.', true);
+                            }
+                        });
+                    }
+                }).catch(() => {
+                    showPopup('Oops! There was a problem sending your message.', true);
+                });
+            });
+        </script>
+</body>
+
+</html>
